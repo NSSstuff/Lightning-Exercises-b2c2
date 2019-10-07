@@ -29,8 +29,14 @@ const empireStateBuilding = {
 /*
     Use dot notation to output all of the dimensions of the Empire State Building to the console.
 */
-console.log("Hi, from Metro Center")
-console.log(empireStateBuilding["stories"], "testing");
-console.log(empireStateBuilding["height"]);
-console.log(empireStateBuilding["address"]);
-console.log(empireStateBuilding["squareFeet"]);
+console.log(empireStateBuilding.stories, empireStateBuilding.height, empireStateBuilding.address);
+
+/*
+    Lightning Exercises 2: Use square bracket notation to output the remaining 5 properties to the console. 
+    Create 5 variables first with the keys as their values. Use those variables to look up the values.
+*/
+
+let bldgCost = "cost";
+let bldgOwner = "owner";
+let bldgEastLen = "eastWestLength";
+let bldgSouthLen = "northSouthLength";
