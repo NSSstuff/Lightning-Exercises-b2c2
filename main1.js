@@ -40,3 +40,5 @@ let bldgCost = "cost";
 let bldgOwner = "owner";
 let bldgEastLen = "eastWestLength";
 let bldgSouthLen = "northSouthLength";
+console.log(empireStateBuilding[bldgCost], "hellooooS");
+console.log(empireStateBuilding[bldgOwner]);
